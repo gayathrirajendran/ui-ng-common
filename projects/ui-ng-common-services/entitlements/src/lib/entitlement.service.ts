@@ -5,5 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class EntitlementService {
 
+  public user = 'admin';
+
   constructor() { }
 }

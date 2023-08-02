@@ -1,0 +1,4 @@
+- yarn install
+- Build the library eg. yarn cs
+- yarn publish ./dist/ui-ng-common-services
+- git push --tags && git push 
