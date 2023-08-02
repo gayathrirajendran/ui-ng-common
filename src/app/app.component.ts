@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EntitlementService } from 'arsenal-ng-common-services/entitlements';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ui-ng-common';
+
+  constructor(public entl: EntitlementService) {
+    console.log('User', this.entl.user);
+  }
+
 }

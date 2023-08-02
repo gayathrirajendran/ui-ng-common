@@ -8,6 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "cs": "ng build ui-ng-common-services",
+    "cc": "ng build ui-ng-common-components",
+    "b:l": "yarn cs && yarn cc",
     "release": "standard-version --no-verify --commit-all",
     "push-tags": "git push --follow-tags",
     "auto-patch-release": "npm run release -- --release-as patch && npm run push-tags"

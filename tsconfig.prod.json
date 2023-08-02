@@ -24,16 +24,10 @@
     ],
     "paths": {
       "arsenal-ng-common-components": [
-        "projects/ui-ng-common-components/src/public-api"
-      ],
-      "arsenal-ng-common-components/*": [
-        "projects/ui-ng-common-components/*/src/public-api"
+        "dist/ui-ng-common-components"
       ],
       "arsenal-ng-common-services": [
-        "projects/ui-ng-common-services/src/public-api"
-      ],
-      "arsenal-ng-common-services/*": [
-        "projects/ui-ng-common-services/*/src/public-api"
+        "dist/ui-ng-common-services"
       ]
     }
   },
